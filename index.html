@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
     <nav>
         <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg" alt="">
         
@@ -21,15 +23,22 @@
         <h4>events</h4>
     </nav>
     <video autoplay muted loop src="/assets/hero.mp4"></video>
+    <div id="videotint"></div>
     <main>
         <div id="page1">
             <h1>EAT. DRINK. PLAY.</h1>
             <h2>Welcome to Sidcup Family Golf!</h2>
             <p>Sidcup Family Golf is a Toptracer driving range and crazy golf venue in Sidcup, South East London. Passionate about technology, player development and making golf fun and accessible to everyone.</p>
         </div>
-        <div id="page2"></div>
+        <div id="page2">
+            <div id="scroller">
+                <div id="scroller-in"></div>
+                <div id="scroller-in"></div>
+            </div>
+        </div>
     </main>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>
